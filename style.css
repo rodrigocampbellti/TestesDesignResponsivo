@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+.example-item_1{
+    display: inline-block;
+    width: 9%;
+    height: 100px;
+    background-color: violet;
+}
+.example-item_2{
+    display: inline-block;
+    width: 9%;
+    height: 100px;
+    background-color: aqua;
+}
+.example-item_3{
+display: inline-block;
+    width: 9%;
+    height: 100px;
+    background-color: orange;
+}
+.example-item_4{
+    
+    width: 9%;
+    height: 100px;
+    background-color: purple;
+    display: inline-block;
+}

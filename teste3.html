@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Layout Responsivo</title>
+
+<style>
+.quad1{
+    color: white;
+    background-color: blue;
+    height: 100px;
+    width: 10%;
+    display: inline-block;
+}
+
+.quad2{
+    color: white;
+    background-color: green;
+    height: 100px;
+    width: 10%;
+    display: inline-block;
+}
+
+.quad3{
+    color: white;
+    background-color: burlywood;
+    height: 100px;
+    width: 10%;
+    display: inline-block;
+}
+
+.quad4{
+
+    color: white;
+    background-color: red;
+    height: 100px;
+    width: 10%;
+    display: inline-block;
+}
+
+@media only screen and (max-width:500px) {
+ .quad1, .quad2, .quad3, .quad4{
+  justify-content: flex-start;
+ }
+}
+</style>
+</head>
+<body>
+    <div class="example">
+        <div class="quad1">Primeiro</div>
+        <div class="quad2">Segundo</div>
+        <div class="quad3">Terceiro</div>
+        <div class="quad4">Quarto</div>
+    </div>
+</body>
+</html>
