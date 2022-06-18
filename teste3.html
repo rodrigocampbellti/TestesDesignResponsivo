@@ -10,15 +10,16 @@
     color: white;
     background-color: blue;
     height: 100px;
-    width: 10%;
+    width: 140px;
     display: inline-block;
+    
 }
 
 .quad2{
     color: white;
     background-color: green;
     height: 100px;
-    width: 10%;
+    width: 140px;
     display: inline-block;
 }
 
@@ -26,8 +27,9 @@
     color: white;
     background-color: burlywood;
     height: 100px;
-    width: 10%;
+    width: 140px;
     display: inline-block;
+   
 }
 
 .quad4{
@@ -35,13 +37,47 @@
     color: white;
     background-color: red;
     height: 100px;
-    width: 10%;
+    width: 140px;
     display: inline-block;
+  
+}
+@media only screen and (max-width:1800px){
+    .quad3, .quad4{
+        display: inline-flex;
+    }
 }
 
-@media only screen and (max-width:500px) {
- .quad1, .quad2, .quad3, .quad4{
-  justify-content: flex-start;
+
+
+@media only screen and (max-width:800px) {
+ .quad1{
+      display: flex;
+      width: 140px;
+
+ }
+}
+
+@media only screen and (max-width:800px) {
+ .quad2{
+      display: flex;
+      width: 140px;
+
+ }
+}
+
+@media only screen and (max-width:800px) {
+ .quad3{
+    display: flex;
+    width: 140px;
+
+ }
+}
+
+@media only screen and (max-width:800px) {
+ .quad4{
+      display: flex;
+      width: 140px;
+
  }
 }
 </style>
