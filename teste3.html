@@ -29,8 +29,8 @@
     background-color: burlywood;
     height: 100px;
     width: 140px;
-    display: inline-block;
-   
+   display: inline-block;
+
 }
 
 .quad4{
@@ -40,23 +40,28 @@
     height: 100px;
     width: 140px;
     display: inline-block;
+
   
 }
 
+@media screen and (max-width: 660px) {
+    .quad3, .quad4{
+        width: 140px;
+        
+        
 
-@media screen and (max-width:1200px) {
-    .quad1, .quad2, .quad3, .quad4{
-        width: 40%;
     }
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 650px) {
     .quad1, .quad2, .quad3, .quad4{
-        width: 70%;
+        display:flex;
+        float:none;
     }
 
 }
+
 
 </style>
 </head>
